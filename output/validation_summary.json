@@ -1,0 +1,65 @@
+{
+  "result": "PASS",
+  "rows": {
+    "customers": 5000,
+    "products": 26,
+    "orders": 8000,
+    "order_items": 11032,
+    "categories": 10,
+    "priority_rules": 8,
+    "priority_levels": 4,
+    "agents": 30,
+    "complaints": 2000,
+    "complaint_status_events": 11927,
+    "complaint_messages": 6000,
+    "assignments": 2767,
+    "sla_clocks": 2000,
+    "resolutions": 1989,
+    "surveys": 1882
+  },
+  "general_failures": {},
+  "flags_by_check": {
+    "complaint_without_customer": 10,
+    "repeat_not_linked": 10,
+    "resolution_before_complaint": 10,
+    "resolution_event_mismatch": 10,
+    "safety_low_queue": 10,
+    "sla_pause_mismatch": 10,
+    "survey_before_closure": 10
+  },
+  "anomaly_detection": {
+    "COMPLAINT_WITHOUT_CUSTOMER": {
+      "injected": 10,
+      "caught": 10,
+      "extra_flags_for_same_check": 0
+    },
+    "RESOLUTION_BEFORE_COMPLAINT": {
+      "injected": 10,
+      "caught": 10,
+      "extra_flags_for_same_check": 0
+    },
+    "SLA_CLOCK_PAUSES_INCORRECTLY": {
+      "injected": 10,
+      "caught": 10,
+      "extra_flags_for_same_check": 0
+    },
+    "REPEAT_NOT_LINKED": {
+      "injected": 10,
+      "caught": 10,
+      "extra_flags_for_same_check": 0
+    },
+    "CRITICAL_SAFETY_LOW_PRIORITY_QUEUE": {
+      "injected": 10,
+      "caught": 10,
+      "extra_flags_for_same_check": 0
+    },
+    "SURVEY_BEFORE_CLOSURE": {
+      "injected": 10,
+      "caught": 10,
+      "extra_flags_for_same_check": 0
+    }
+  },
+  "missed_anomalies": [],
+  "unexpected_flags": [],
+  "unexpected_flag_count": 0
+}

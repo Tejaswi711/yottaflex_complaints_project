@@ -1,0 +1,118 @@
+{
+  "classification": {
+    "category_accuracy_pct": 93.0,
+    "priority_accuracy_pct": 97.8,
+    "safety_recall_pct": 100.0,
+    "per_category": {
+      "Late Delivery": {
+        "precision_pct": 100.0,
+        "recall_pct": 92.9,
+        "support": 379
+      },
+      "Missing Order": {
+        "precision_pct": 100.0,
+        "recall_pct": 91.5,
+        "support": 165
+      },
+      "Damaged Item": {
+        "precision_pct": 100.0,
+        "recall_pct": 92.6,
+        "support": 229
+      },
+      "Wrong Item": {
+        "precision_pct": 100.0,
+        "recall_pct": 94.6,
+        "support": 202
+      },
+      "Product Defect": {
+        "precision_pct": 100.0,
+        "recall_pct": 90.0,
+        "support": 361
+      },
+      "Product Safety": {
+        "precision_pct": 100.0,
+        "recall_pct": 100.0,
+        "support": 68
+      },
+      "Refund Pending": {
+        "precision_pct": 100.0,
+        "recall_pct": 94.3,
+        "support": 193
+      },
+      "Billing Error": {
+        "precision_pct": 100.0,
+        "recall_pct": 90.7,
+        "support": 161
+      },
+      "Poor Service": {
+        "precision_pct": 55.2,
+        "recall_pct": 100.0,
+        "support": 171
+      },
+      "Account Issue": {
+        "precision_pct": 100.0,
+        "recall_pct": 88.7,
+        "support": 71
+      }
+    }
+  },
+  "kpis": {
+    "complaints": 2000,
+    "status_mix": {
+      "CLOSED": 1976,
+      "IN_PROGRESS": 10,
+      "RESOLVED": 11,
+      "ESCALATED": 3
+    },
+    "priority_mix_pct": {
+      "P1": 4.0,
+      "P2": 7.7,
+      "P3": 35.8,
+      "P4": 52.6
+    },
+    "repeat_rate_pct": 8.0,
+    "vulnerable_rate_pct": 3.8,
+    "reopen_rate_pct": 8.3,
+    "overall_breach_rate_pct": 8.0,
+    "mean_hours_to_first_resolution": 108.7,
+    "refund_pending": 8,
+    "survey_response_rate_pct": 55.7,
+    "mean_csat": 3.83,
+    "messages_per_complaint": 3.0,
+    "status_events_per_complaint": 5.96,
+    "by_priority": {
+      "P1": {
+        "complaints": 79,
+        "breach_rate_pct": 3.8,
+        "escalation_rate_pct": 19.0
+      },
+      "P2": {
+        "complaints": 154,
+        "breach_rate_pct": 9.7,
+        "escalation_rate_pct": 38.3
+      },
+      "P3": {
+        "complaints": 715,
+        "breach_rate_pct": 8.4,
+        "escalation_rate_pct": 30.5
+      },
+      "P4": {
+        "complaints": 1052,
+        "breach_rate_pct": 7.8,
+        "escalation_rate_pct": 29.5
+      }
+    },
+    "complaints_by_category": {
+      "Late Delivery": 352,
+      "Missing Order": 151,
+      "Damaged Item": 212,
+      "Wrong Item": 191,
+      "Product Defect": 325,
+      "Product Safety": 68,
+      "Refund Pending": 182,
+      "Billing Error": 146,
+      "Poor Service": 310,
+      "Account Issue": 63
+    }
+  }
+}
