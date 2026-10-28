@@ -1,4 +1,4 @@
-# Complaint Management - Synthetic Data Generator (YottaFlex AI Round 2)
+# Complaint Management - Synthetic Data Generator 
 
 A small, **standard-library-only Python** project (no pip install needed, Python 3.9+; built on 3.12 and re-tested on 3.11 with identical checksums)
 that generates a linked, rule-driven synthetic dataset for this workflow:
