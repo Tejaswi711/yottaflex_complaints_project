@@ -1,0 +1,5 @@
+priority_level,min_points,sla_hours,queue,escalation_pct
+P1,6,24,P1-URGENT,0.75
+P2,4,72,P2-HIGH,0.75
+P3,2,120,P3-STANDARD,0.75
+P4,0,240,P4-LOW,0.75

@@ -1,0 +1,11 @@
+category_id,category_name,default_severity,owning_team,is_active,effective_from,effective_to
+CAT-01,Late Delivery,Low,Logistics,1,2026-01-01,
+CAT-02,Missing Order,High,Logistics,1,2026-01-01,
+CAT-03,Damaged Item,Medium,Logistics,1,2026-01-01,
+CAT-04,Wrong Item,Medium,Logistics,1,2026-01-01,
+CAT-05,Product Defect,Medium,Product Quality,1,2026-01-01,
+CAT-06,Product Safety,Critical,Safety & Compliance,1,2026-01-01,
+CAT-07,Refund Pending,High,Billing & Refunds,1,2026-01-01,
+CAT-08,Billing Error,Medium,Billing & Refunds,1,2026-01-01,
+CAT-09,Poor Service,Low,Customer Care,1,2026-01-01,
+CAT-10,Account Issue,Low,Customer Care,1,2026-01-01,

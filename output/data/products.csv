@@ -1,0 +1,27 @@
+product_id,product_name,product_category,unit_price,is_hazard_prone
+PRD-0001,Wireless Earbuds,Electronics,2499.0,0
+PRD-0002,Phone Charger 20W,Electronics,899.0,1
+PRD-0003,Power Bank 10000mAh,Electronics,1799.0,1
+PRD-0004,Bluetooth Speaker,Electronics,2999.0,0
+PRD-0005,Smart Watch,Electronics,4999.0,0
+PRD-0006,Headphones,Electronics,7999.0,0
+PRD-0007,Electric Kettle,Appliances,1499.0,1
+PRD-0008,Room Heater,Appliances,2999.0,1
+PRD-0009,Induction Cooktop,Appliances,3499.0,1
+PRD-0010,Mixer Grinder,Appliances,3999.0,1
+PRD-0011,Air Fryer,Appliances,6999.0,1
+PRD-0012,Hair Dryer,Personal Care,1299.0,1
+PRD-0013,Electric Shaver,Personal Care,1799.0,0
+PRD-0014,Laptop Sleeve,Accessories,799.0,0
+PRD-0015,Backpack,Accessories,1599.0,0
+PRD-0016,Running Shoes,Footwear,3299.0,0
+PRD-0017,Yoga Mat,Fitness,999.0,0
+PRD-0018,Water Bottle,Home,499.0,0
+PRD-0019,Desk Lamp,Home,1199.0,0
+PRD-0020,Office Chair,Furniture,8999.0,0
+PRD-0021,Gaming Mouse,Electronics,1499.0,0
+PRD-0022,Mechanical Keyboard,Electronics,2499.0,0
+PRD-0023,Cotton Bedsheet,Home,1299.0,0
+PRD-0024,Cookware Set,Home,2799.0,0
+PRD-0025,4K Monitor,Electronics,18999.0,0
+PRD-0026,Laptop,Electronics,54999.0,0

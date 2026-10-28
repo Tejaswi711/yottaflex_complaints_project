@@ -1,0 +1,9 @@
+rule_id,factor,operator,threshold,points,effect,effective_from,effective_to
+PR-001,is_safety_issue,==,1,0,FORCE_P1,2026-01-01,
+PR-002,sentiment_score,<=,-0.25,1,ADD_POINTS,2026-01-01,
+PR-003,sentiment_score,<=,-0.5,1,ADD_POINTS,2026-01-01,
+PR-004,order_value,>=,5000,1,ADD_POINTS,2026-01-01,
+PR-005,order_value,>=,20000,1,ADD_POINTS,2026-01-01,
+PR-006,is_repeat,==,1,2,ADD_POINTS,2026-01-01,
+PR-007,vulnerable_flag,==,1,2,ADD_POINTS,2026-01-01,
+PR-008,severity_rank,>=,3,1,ADD_POINTS,2026-01-01,
